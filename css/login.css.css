@@ -1,0 +1,56 @@
+body{
+    background: black;
+    background: url(../img/khunglong.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#form-login{
+    padding: 50px 10px;
+    width: 400px;
+    min-height: 100px;
+    background: white;
+    margin: 0px auto;
+    margin-top: 180px;
+    border-radius: 10px;
+}
+#form-login h3{
+    text-align: center;
+}
+#form-login #txtusername, #form-login #txtpassword{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+#form-login #txtusername:focus{
+    background:rgb(173, 163, 163) ;
+    color: red;
+}
+#form-login #txtpassword:focus{
+    background:rgb(173, 163, 163) ;
+    color: red;
+}
+#form-login #btn-login{
+    background: green;
+    color: white;
+    border: 0px;
+    padding: 10px 30px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 15px;
+    width: 86%;
+}
+#form-login #btn-login:hover{
+    background: black;
+    cursor: pointer;
+}
+
+@media only screen and(max-width:500px){
+    #form-login{
+        width: 320px;
+    }
+}

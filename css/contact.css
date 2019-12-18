@@ -1,0 +1,58 @@
+body{
+  background: black;
+  background: url(../img/nen.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#form-contact{
+  padding: 50px 10px;
+  width: 600px;
+  min-height: 100px;
+  background: 0,0,0,0.5;
+  margin: 0px auto;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+#form-contact H1{
+  text-align: center;
+}
+#form-contact #email, #form-contact #name, #form-contact #phone, #form-contact #comment{
+  display: block;
+  width: 80%;
+  padding: 10px;
+  margin: 0px auto;
+  margin-top: 15px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#form-contact #btn-send{
+  background: green;
+  color: white;
+  border: 0px;
+  padding: 10px 30px;
+  display: block;
+  margin: 0px auto;
+  margin-top: 15px;
+  width: 86%;
+}
+#form-contact #btn:hover{
+  background: black;
+  cursor: pointer;
+}
+@media only screen and(max-width:500px){
+  #form-signin{
+      width: 320px;
+  }
+}
